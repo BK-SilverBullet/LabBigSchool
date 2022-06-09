@@ -192,6 +192,10 @@
     <Compile Include="Migrations\202206080144071_InitialModel1.designer.cs">
       <DependentUpon>202206080144071_InitialModel1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202206091351411_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\202206091351411_AddNameColumnToApplicationUser.designer.cs">
+      <DependentUpon>202206091351411_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -291,6 +295,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202206080144071_InitialModel1.resx">
       <DependentUpon>202206080144071_InitialModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206091351411_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>202206091351411_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
