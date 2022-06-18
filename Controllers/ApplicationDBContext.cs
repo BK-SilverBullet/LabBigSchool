@@ -2,6 +2,6 @@
 {
     internal class ApplicationDBContext
     {
-        public object Courses { get; internal set; }
+        public object Courses { get;set; }
     }
 }

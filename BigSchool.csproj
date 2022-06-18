@@ -214,6 +214,14 @@
     <Compile Include="Migrations\202206150142476_AddAttendance.designer.cs">
       <DependentUpon>202206150142476_AddAttendance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202206181730290_IntinialModel5.cs" />
+    <Compile Include="Migrations\202206181730290_IntinialModel5.designer.cs">
+      <DependentUpon>202206181730290_IntinialModel5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206181759174_AddFollowingsTable.cs" />
+    <Compile Include="Migrations\202206181759174_AddFollowingsTable.designer.cs">
+      <DependentUpon>202206181759174_AddFollowingsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -321,6 +329,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202206150142476_AddAttendance.resx">
       <DependentUpon>202206150142476_AddAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206181730290_IntinialModel5.resx">
+      <DependentUpon>202206181730290_IntinialModel5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206181759174_AddFollowingsTable.resx">
+      <DependentUpon>202206181759174_AddFollowingsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

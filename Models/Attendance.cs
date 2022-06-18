@@ -22,9 +22,5 @@ namespace BigSchool.Models
 
         public string AttendeeId { get; set; }
 
-        public static implicit operator Attendance(Attendance v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

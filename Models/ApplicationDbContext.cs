@@ -40,7 +40,7 @@ namespace BigSchool.Models
 
             modelBuilder.Entity<ApplicationUser>()
                 .HasMany(u => u.Followees)
-                .WithRequired(f=>f.Follower)
+                .WithRequired(f => f.Follower)
                 .WillCascadeOnDelete(false);
 
             base.OnModelCreating(modelBuilder);

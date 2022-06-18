@@ -19,7 +19,7 @@ namespace BigSchool.Controllers
             _dbContext = new ApplicationDbContext();
         }
         //[HttpPost]
-        //public  IHttpActionResult Attend([FromBody] int courseId)
+        //public IHttpActionResult Attend([FromBody] int courseId)
         //{
         //    var userId = User.Identity.GetUserId();
         //    if (_dbContext.Attendances.Any(a => a.AttendeeId == userId && a.CourseId == courseId))
@@ -36,7 +36,7 @@ namespace BigSchool.Controllers
         //}
 
         [HttpPost]
-        public IHttpActionResult Attend(AttendanceDto  attendanceDto)
+        public IHttpActionResult Attend(AttendanceDto attendanceDto)
         {
             var userId = User.Identity.GetUserId();
             if (_dbContext.Attendances.Any(a => a.AttendeeId == userId && a.CourseId == attendanceDto.CourseId))
